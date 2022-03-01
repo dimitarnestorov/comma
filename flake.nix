@@ -1,10 +1,6 @@
 {
   description = "Comma runs software without installing it";
 
-  inputs = {
-    nixpkgs.url = "nixpkgs/nixos-unstable";
-  };
-
   outputs = { self, nixpkgs, }:
   let
     b = builtins;
